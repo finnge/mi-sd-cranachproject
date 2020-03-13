@@ -1,5 +1,11 @@
 /*-----------------------------------------------------------------------------
-addons.css                                                                  
+addons.css
 Enthält alle zusätzlichen Klassen und Erweiterungen
 ----------------------------------------------------------------------------*/
 
+#l-mainHeader{
+    background-image: linear-gradient(to left, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75)),url(../img/meta/projekt-2019-hero.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}

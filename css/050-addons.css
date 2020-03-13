@@ -9,3 +9,7 @@ Enthält alle zusätzlichen Klassen und Erweiterungen
     background-position: center;
     background-repeat: no-repeat;
 }
+
+.m-portfolioItem-image{
+    box-shadow: 10px 0 30px rgba(0,0,0,0.15);s
+}

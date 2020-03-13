@@ -1,5 +1,5 @@
 /*-----------------------------------------------------------------------------
-base.css                                                                  
+base.css
 Enthält alle CSS Variabeln und grundlegende Regeln.
 @media (min-width:600px) { }
 @media (min-width:801px) { }
@@ -38,7 +38,7 @@ Enthält alle CSS Variabeln und grundlegende Regeln.
 -----------------------------------------------------------------------------*/
 
 :root {
-    /* 
+    /*
     Farben
     ----------------------------------------*/
     --color-text: #444;

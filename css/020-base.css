@@ -192,11 +192,11 @@ p, li, td, th{
 ----------------------------------------------------------------------------*/
 
 a{
-color: var(--color-accent);
-text-decoration: none;
-display: inline-block;
-border-bottom: dotted 1px var(--color-text-light);
-overflow-wrap: break-word;
-word-wrap: break-word;
-hyphens: auto;
+    color: var(--color-accent);
+    text-decoration: none;
+    display: inline-block;
+    border-bottom: dotted 1px var(--color-text-light);
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    hyphens: auto;
 }

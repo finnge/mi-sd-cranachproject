@@ -200,3 +200,7 @@ a{
     word-wrap: break-word;
     hyphens: auto;
 }
+
+a:hover, a:active{
+    border-bottom: dotted 1px var(--color-accent);;
+}

@@ -96,7 +96,7 @@ html{
 
 
 body {
-
+    quotes: "\201E" "\201C" "\201A" "\2018";
     font-size: var(--fontsize);
     color: var(--color-text);
     background-color: var(--color-backgrounds);

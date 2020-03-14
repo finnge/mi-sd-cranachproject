@@ -201,6 +201,6 @@ a{
     hyphens: auto;
 }
 
-a:hover, a:active{
+a:not(.m-linkButton):hover, a:not(.m-linkButton):active{
     border-bottom: dotted 1px var(--color-accent);;
 }

@@ -11,24 +11,24 @@ Enthält alle CSS Variabeln und grundlegende Regeln.
 -----------------------------------------------------------------------------*/
 
 @font-face{
-  font-family:PT_Sans;
-  font-style:normal;
-  font-weight:300;
-  src:url('../fonts/PT_Sans/PTSans-Regular.ttf');
+    font-family:PT_Sans;
+    font-style:normal;
+    font-weight:300;
+    src:url('../fonts/PT_Sans/PTSans-Regular.ttf');
 }
 
 @font-face{
-  font-family:PT_Sans;
-  font-style:normal;
-  font-weight:600;
-  src:url('../fonts/PT_Sans/PTSans-Bold.ttf');
+    font-family:PT_Sans;
+    font-style:normal;
+    font-weight:600;
+    src:url('../fonts/PT_Sans/PTSans-Bold.ttf');
 }
 
 @font-face{
-  font-family:PT_Sans_Mono;
-  font-style:normal;
-  font-weight:300;
-  src:url('../fonts/PT_Mono/PTMono-Regular.ttf');
+    font-family:PT_Sans_Mono;
+    font-style:normal;
+    font-weight:300;
+    src:url('../fonts/PT_Mono/PTMono-Regular.ttf');
 }
 
 
@@ -85,13 +85,13 @@ Enthält alle CSS Variabeln und grundlegende Regeln.
 /* Basic Styles & Bahavior
 -----------------------------------------------------------------------------*/
 html{
-  scroll-behavior: smooth;
+    scroll-behavior: smooth;
 }
 
 @media screen and (prefers-reduced-motion: reduce) {
-	html {
-		scroll-behavior: auto;
-	}
+    html {
+        scroll-behavior: auto;
+    }
 }
 
 
@@ -104,15 +104,15 @@ body {
 }
 
 @media only screen and (min-width: 600px) {
-  body{
-    font-size: var(--fontsize-l);
-  }
+    body{
+        font-size: var(--fontsize-l);
+    }
 }
 
 @media only screen and (min-width: 801px) {
-  body{
-    font-size: var(--fontsize);
-  }
+    body{
+        font-size: var(--fontsize);
+    }
 }
 
 li,
@@ -128,63 +128,71 @@ th {
 ----------------------------------------------------------------------------*/
 
 h1 {
-  font-size: var(--fontsize-xxl);
+    font-size: var(--fontsize-xxl);
 }
 
 h2 {
-  font-size: var(--fontsize-xl);
-  color: var(--color-headlines);
-  margin-bottom: var(--xxl);
+    font-size: var(--fontsize-xl);
+    color: var(--color-headlines);
+    margin-bottom: var(--xxl);
 }
 
 h3 {
-  font-size: var(--fontsize-l);
+    font-size: var(--fontsize-l);
 }
 
 h4,
 h5,
 h6 {
-  font-size: var(--fontsize);
-  font-weight: bold;
+    font-size: var(--fontsize);
+    font-weight: bold;
 }
 
 
 h1, h2, h3{
-  font-weight: 300;
+    font-weight: 300;
 }
 
 h3,
 h4 {
-  color: var(--color-headlines);
+    color: var(--color-headlines);
 }
 
 
 h2+h3,
 h3:first-of-type {
-  padding-top: 0;
+    padding-top: 0;
 }
 
 .title,
 .subtitle {
-  margin-bottom: var(--m);
+    margin-bottom: var(--m);
 }
 
 .title+.subtitle {
-  margin-top: calc(var(--m) * -1); /*calc(var(--xs) - var(--m)); */
+    margin-top: calc(var(--m) * -1); /*calc(var(--xs) - var(--m)); */
 }
 
 /* Mengentexte
 ----------------------------------------------------------------------------*/
 
 p, li, td, th{
-  line-height: 130%;
+    line-height: 130%;
 }
 .m-portfolioItemCentered p {
-  line-height: 140%;
+    line-height: 140%;
 }
 
 .is-big {
-  font-size: 115%;
+    font-size: 115%;
+}
+
+p + p {
+    margin-top: 1em
+}
+
+p + img{
+    margin-top: 1em
 }
 
 

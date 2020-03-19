@@ -87,6 +87,10 @@ Enthält alle Regeln zu Module.
     margin-bottom: 0;
 }
 
+.m-portfolioItemCenteredImg iframe{
+    width: 100%
+}
+
 
 
 /* Buttons

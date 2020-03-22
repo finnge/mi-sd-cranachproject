@@ -13,7 +13,7 @@ Enthält alle Regeln zu Module.
 /* Portfolio Item
 -----------------------------------------------------------------------------*/
 
-.m-portfolioItem, .m-portfolioItemCentered, .m-portfolioItem3Columns, .m-portfolioItemCenteredImg, .m-portfolioItem2Columns, .m-portfolioItemImg{
+.m-portfolioItem, .m-portfolioItemCentered, .m-portfolioItem3Columns, .m-portfolioItemCenteredImg, .m-portfolioItem2Columns, .m-portfolioItemImg, .m-portfolioItem2Grid{
     margin-bottom: var(--xxxl);
 }
 
@@ -26,6 +26,11 @@ Enthält alle Regeln zu Module.
     .m-portfolioItem2Columns{
         display: grid;
         grid-template-columns: 50% 1fr;
+        grid-column-gap: var(--xl);
+    }
+    .m-portfolioItem2Grid{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
         grid-column-gap: var(--xl);
     }
     .m-portfolioItemImg{
@@ -48,7 +53,7 @@ Enthält alle Regeln zu Module.
     }
 }
 
-.m-portfolioItem + *, .m-portfolioItemCentered + *, .m-portfolioItem3Columns + *, .m-portfolioItemCenteredImg + *, .m-portfolioItem2Columns + *, .m-portfolioItemImg + *{
+.m-portfolioItem + *, .m-portfolioItemCentered + *, .m-portfolioItem3Columns + *, .m-portfolioItemCenteredImg + *, .m-portfolioItem2Columns + *, .m-portfolioItemImg + *, .m-portfolioItem2Grid + *{
     border-top: solid 1px var(--color-text-light);
     padding-top: var(--xxxl);
     margin-top: var(--xxxl);

@@ -23,12 +23,12 @@ Enthält alle Regeln zu Module.
         grid-template-columns: 31.677% 1fr;
         grid-column-gap: var(--xl);
     }
-    .m-portfolioItem2Columns{
+    .m-portfolioItemImgSide{
         display: grid;
         grid-template-columns: 50% 1fr;
         grid-column-gap: var(--xl);
     }
-    .m-portfolioItem2Grid{
+    .m-portfolioItem2Columns{
         display: grid;
         grid-template-columns: 1fr 1fr;
         grid-column-gap: var(--xl);
@@ -53,7 +53,7 @@ Enthält alle Regeln zu Module.
     }
 }
 
-.m-portfolioItem + *, .m-portfolioItemCentered + *, .m-portfolioItem3Columns + *, .m-portfolioItemCenteredImg + *, .m-portfolioItem2Columns + *, .m-portfolioItemImg + *, .m-portfolioItem2Grid + *{
+.m-portfolioItem + *, .m-portfolioItemCentered + *, .m-portfolioItem3Columns + *, .m-portfolioItemCenteredImg + *, .m-portfolioItem2Columns + *, .m-portfolioItemImg + *, .m-portfolioItemImgSide + *{
     border-top: solid 1px var(--color-text-light);
     padding-top: var(--xxxl);
     margin-top: var(--xxxl);

@@ -11,5 +11,9 @@ Enthält alle zusätzlichen Klassen und Erweiterungen
 }
 
 .m-portfolioItem-image{
-    box-shadow: 10px 0 30px rgba(0,0,0,0.15);s
+    box-shadow: 10px 0 30px rgba(0,0,0,0.15);
+}
+
+.no-shadow{
+    box-shadow: none;
 }

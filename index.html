@@ -86,10 +86,13 @@ https://twitter.com/cnoss
                 </figcaption>
                 <figcaption>
                     <p>
-                        Im Vordergrund der entwickelten Anwendung steht die Timeline-Ansicht, welche alle Bilder zeitlich chronologisch sortiert und in einer Rasterdarstellung anzeigt. Des Weiteren gibt es drei verschiedene Zoomstufen, die sich durch die Größe der Kacheln/Cards unterscheiden.
+                        Im Vordergrund der entwickelten Anwendung steht die Timeline, welche alle Bilder zeitlich chronologisch sortiert und in einer Rasterdarstellung anzeigt.
+                        Eine besondere Herausforderung bei stellt hierbei die sehr große Menge an Bildern da.
+                        So wurden drei verschiedene Zoomstufen erstellt, welche sich durch die Größe der Kacheln/Cards unterscheiden.
                         Zwischen diesen Zoomstufen kann der Nutzer hin- und herwechseln. So wird dem Nutzer die Möglichkeit gegeben, sich erst orientieren zu können und einen Gesamtüberblick zu erhalten.
-                        Als Weiteres Interaktionselement wurde ein Rad hinzugefügt. Mithilfe des Rads soll die Navigation innerhalb der Timline erleichtert werden.
-                        Kleine Einschübe mit Events und Jahreszahlen sollen dem Nuter weitere Orientierung geben.
+                        Als Weiteres Interaktionselement wurde ein Rad hinzugefügt. Mithilfe des Rads soll die Navigation innerhalb der Timeline erleichtert werden.
+                        Kleine Einschübe mit Events und Jahreszahlen sollen dem Nuter weitere Orientierung geben und eine explorative Suche ermöglichen.
+                        Zu jedem Bild lässt sich außerdem eine Detailansicht aufrufen. So bekommt der Nutzer die wichtigsten Informationen anschaulich präsentiert.
                     </p>
                     <p>
                         Diese Elemente der Timeline werden im Folgenden näher erläutert und erklärt:
@@ -114,7 +117,7 @@ https://twitter.com/cnoss
                         <p>
                             Die kleinste Zoomstufe stellt die Bilder so klein dar, dass der Nutzer grob das jeweilige Motiv erkennen kann, aber auch gleichzeitig einen Überblick über die Bilder in einem Möglichst großem Zeitraum erlangt.
                             Diese Stufe dient hauptsächlch zur Orientierung.
-                            Durch Tippen auf ein Bild öffnet sich die <a href=#Detailansicht>Detailansicht</a>.
+                            Durch Tippen auf ein Bild öffnet sich die jeweils zugehörige <a href=#Detailansicht>Detailansicht</a>.
                         </p>
                     </figcaption>
 
@@ -124,7 +127,7 @@ https://twitter.com/cnoss
                         <p>
                             Die mittlere Zoomstufe ist die Standardansicht der Timeline. Auf dieser Ansicht startet der Nutzer beim Öffnen der App.
                             Die Bilder sind etwas größer als in der kleinsten Zoomstufe. Dem Nutzer wird so die Möglichkeit geboten, einen ersten Überblick zu bekommen und die Bilder grob zu betrachten.
-                            Durch Tippen auf ein Bild öffnet sich die <a href=#Detailansicht>Detailansicht</a>.
+                            Durch Tippen auf ein Bild öffnet sich die jeweils zugehörige <a href=#Detailansicht>Detailansicht</a>.
                         </p>
                     </figcaption>
 
@@ -133,6 +136,7 @@ https://twitter.com/cnoss
                         <h3 class="m-portfolioItem-subtitle">Größte Zoom-Stufe (Smartphone)</h3>
                         <p>
                           Die größte Zoom-Stufe bietet dem Nutzer nun eine Listenansicht. Diese Liste besteht aus sehr simplen Card, welche das Bild, den Titel und den aktuellen Aufenthaltsort des Bildes zeigt.
+                          So sieht der Nutzer die wichtigsten Informationen auf einen Blick. Des Weiteren kann er Bilder durch ein langes Drücken auf die jeweilige Card zur einer <a href=#merkliste>Merkliste</a> hinzufügen.
                           Durch Tippen auf die Card öffnet sich die <a href=#Detailansicht>Detailansicht</a>.
                         </p>
 
@@ -166,10 +170,13 @@ https://twitter.com/cnoss
                     <h3 class="m-portfolioItem-subtitle">Das Timeline-Rad</h3>
                     <p>
                       Auf der rechten Seite hat der Nutzer eine kleine Timeline, welche dem Nutzer anzeigt, an welcher Stelle im Lebenslauf von Cranach er sich befindet.
-                      Des Weiteren kann er erkennen, wieviele Bilder in diesem Jahr im Verhältnis zu den anderen Jahren entstanden sind.
+                      Diese Position wird durch eine Linie Strich angezeigt.
+                      Des Weiteren kann er durch die Länge der Linien erkennen, wieviele Bilder in diesem Jahr im Verhältnis zu den anderen Jahren entstanden sind.
                       Als weitere Funktion wurde ein Rad implementiert, welches das Scrollen durch die Timeline erleichtern sollen.
-                      Dieses Rad lässt sich vom rechten Bildschirmrand hineinziehen. Dreht der Nutzer nun das Rad, scrollt er schneller durch die Timeline.
-                      Auf dem Rad wird währenddessen die aktuelle Jahreszahl angezeigt. Außerdem wird durch den gelben Strich gezeigt, dass in diesem Jahr ein wichtiges Ereignis im Lebenslauf von Cranach stattgefunden hat.
+                      Dieses Rad lässt sich vom rechten Bildschirmrand hineinziehen.
+                      Dreht der Nutzer nun das Rad, scrollt er schneller durch die Timeline.
+                      Auf dem Rad wird währenddessen die aktuelle Jahreszahl angezeigt. Außerdem wird durch eine gelbe Linie gezeigt, dass in diesem Jahr ein wichtiges Ereignis im Lebenslauf von Cranach stattgefunden hat.
+                      So soll das Rad die Möglichkeit bieten, die Timeline schnell zu "überfliegen" und trotzdem noch Anhaltspunkte über wichtige Ereignisse zu haben.
                     </p>
                 </figcaption>
 

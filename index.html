@@ -36,7 +36,564 @@ https://twitter.com/cnoss
     <main id="l-mainContent">
         <div class="l-grid-for-large-items">
             <figure class="m-portfolioItemCentered is-big">
-              
+                <figcaption>
+                    <h2 class="m-portfolioItemCentered-title">
+                        Cranach Digital Archive
+                    </h2>
+
+                    <p>
+                        Im Rahmen des
+                        <a href="https://th-koeln.github.io/mi-bachelor-screendesign/projekt-2019/" target="_blank">Projektes</a>
+                        wurden alternative Ansichten zu dem
+                        <a href="http://lucascranach.org/index.php" target="_blank">Cranach Digital Archive (CDA)</a>
+                        entwickelt, um die Fülle an Information und Artefakten für Laien
+                        zu ordnen, um so eine explorative und gezielte Suche zu
+                        ermöglichen.
+                    </p>
+                    <p>
+                        Bei der Erstellung dieser Mockups wurde der "Mobile First"-Ansatz
+                        angewendet und so die mobile Ansicht der Anwendung zu erst
+                        entworfen. Auf Basis der mobile-Ansicht wurde daraufhin eine tablet-Ansicht entworfen
+                    </p>
+
+                    <img class="m-portfolioItem-image" src="/mi-sd-cranachproject/assets/img/meta/hero.png" />
+
+                    <p>
+                        Auf dieser Seite werden wichtige Features unseres Konzeptes
+                        besonders hervorgehoben und erläutert. So soll die Nutzung der App
+                        möglichst einfach und intuitiv möglich sein.
+                    </p>
+                    <p>
+                        <a class="m-linkButton" href="#timeline">Timeline</a>
+                        <a class="m-linkButton" href="#filter">Suche+Filter</a>
+                        <a class="m-linkButton" href="#merkliste">Merkliste</a>
+                        <a class="m-linkButton" href="#karte">Karte</a>
+                        <a class="m-linkButton" href="#navigation">Navigation</a>
+                        <a class="m-linkButton" href="#mockups-smartphone">Mockups-Smartphone</a>
+                        <a class="m-linkButton" href="#mockups-tablet">Mockups-Tablet</a>
+                        <a class="m-linkButton" href="#ideen">Ideen&Varianten</a>
+                        <a class="m-linkButton" href="#style-guide">Style-Guide</a>
+                    </p>
+                </figcaption>
+            </figure>
+
+            <!--
+            ####
+            #### Timeline
+            ####
+            -->
+            <figure class="m-portfolioItem" id="timeline">
+                <figcaption>
+                    <h2 class="m-portfolioItem-title">Die Timeline</h2>
+                </figcaption>
+                <figcaption>
+                    <p>
+                        Im Vordergrund der entwickelten Anwendung steht die Timeline, welche alle Bilder zeitlich chronologisch sortiert und in einer Rasterdarstellung anzeigt.
+                        Eine besondere Herausforderung bei stellt hierbei die sehr große Menge an Bildern da.
+                        So wurden drei verschiedene Zoomstufen erstellt, welche sich durch die Größe der Kacheln/Cards unterscheiden.
+                        Zwischen diesen Zoomstufen kann der Nutzer hin- und herwechseln. So wird dem Nutzer die Möglichkeit gegeben, sich erst orientieren zu können und einen Gesamtüberblick zu erhalten.
+                        Als Weiteres Interaktionselement wurde ein Rad hinzugefügt. Mithilfe des Rads soll die Navigation innerhalb der Timeline erleichtert werden.
+                        Kleine Einschübe mit Events und Jahreszahlen sollen dem Nuter weitere Orientierung geben und eine explorative Suche ermöglichen.
+                        Zu jedem Bild lässt sich außerdem eine Detailansicht aufrufen. So bekommt der Nutzer die wichtigsten Informationen anschaulich präsentiert.
+                    </p>
+                    <p>
+                        Diese Elemente der Timeline werden im Folgenden näher erläutert und erklärt:
+                   </p>
+                   <p>
+                        <a class="m-linkButton" href="#timeline-zoom">Zoom-Stufen</a>
+                        <a class="m-linkButton" href="#timeline-rad">Rad</a>
+                        <a class="m-linkButton" href="#timeline-events">Events</a>
+                        <a class="m-linkButton" href="#Detailansicht">Detailansicht</a>
+                    </p>
+                </figcaption>
+
+                <!--
+                #### Zoom-Stufen
+                -->
+
+            </figure>
+                <figure class="m-portfolioItem3Columns">
+                    <figcaption id="timeline-zoom">
+                        <img class="m-portfolioItem-image" src="/mi-sd-cranachproject/assets/img/smartphone/cda_timeline_size-max.png">
+                        <h3 class="m-portfolioItem-subtitle">Kleinste Zoom-Stufe (Smartphone)</h3>
+                        <p>
+                            Die kleinste Zoomstufe stellt die Bilder so klein dar, dass der Nutzer grob das jeweilige Motiv erkennen kann, aber auch gleichzeitig einen Überblick über die Bilder in einem Möglichst großem Zeitraum erlangt.
+                            Diese Stufe dient hauptsächlch zur Orientierung.
+                            Durch Tippen auf ein Bild öffnet sich die jeweils zugehörige <a href=#Detailansicht>Detailansicht</a>.
+                        </p>
+                    </figcaption>
+
+                    <figcaption>
+                        <img class="m-portfolioItem-image" src="/mi-sd-cranachproject/assets/img/smartphone/cda_timeline_size-mid.png">
+                        <h3 class="m-portfolioItem-subtitle">Standard Zoom-Stufe (Smartphone)</h3>
+                        <p>
+                            Die mittlere Zoomstufe ist die Standardansicht der Timeline. Auf dieser Ansicht startet der Nutzer beim Öffnen der App.
+                            Die Bilder sind etwas größer als in der kleinsten Zoomstufe. Dem Nutzer wird so die Möglichkeit geboten, einen ersten Überblick zu bekommen und die Bilder grob zu betrachten.
+                            Durch Tippen auf ein Bild öffnet sich die jeweils zugehörige <a href=#Detailansicht>Detailansicht</a>.
+                        </p>
+                    </figcaption>
+
+                    <figcaption>
+                        <img class="m-portfolioItem-image" src="/mi-sd-cranachproject/assets/img/smartphone/cda_timeline_size-small.png">
+                        <h3 class="m-portfolioItem-subtitle">Größte Zoom-Stufe (Smartphone)</h3>
+                        <p>
+                          Die größte Zoom-Stufe bietet dem Nutzer nun eine Listenansicht. Diese Liste besteht aus sehr simplen Card, welche das Bild, den Titel und den aktuellen Aufenthaltsort des Bildes zeigt.
+                          So sieht der Nutzer die wichtigsten Informationen auf einen Blick. Des Weiteren kann er Bilder durch ein langes Drücken auf die jeweilige Card zur einer <a href=#merkliste>Merkliste</a> hinzufügen.
+                          Durch Tippen auf die Card öffnet sich die <a href=#Detailansicht>Detailansicht</a>.
+                        </p>
+
+                </figure>
+
+                <figure class="m-portfolioItem3Columns">
+                    <figcaption>
+                      <img class="m-portfolioItem-image" src="/mi-sd-cranachproject/assets/img/tablet/cda_timeline_size-max.png">
+                      <h3 class="m-portfolioItem-subtitle">Größte Zoom-Stufe (Tablet)</h3>
+                    </figcaption>
+
+                    <figcaption>
+                        <img class="m-portfolioItem-image" src="/mi-sd-cranachproject/assets/img/tablet/cda_timeline_size-mid.png">
+                        <h3 class="m-portfolioItem-subtitle">Mittlere Zoom-Stufe (Tablet)</h3>
+                    </figcaption>
+
+                    <figcaption>
+                        <img class="m-portfolioItem-image" src="/mi-sd-cranachproject/assets/img/tablet/cda_timeline_size-small.png">
+                        <h3 class="m-portfolioItem-subtitle">Kleinste Zoom-Stufe (Tablet)</h3>
+                        </figcaption>
+
+            </figure>
+
+            <!--
+            #### Rad
+            -->
+
+            <figure class="m-portfolioItem3Columns">
+
+                <figcaption id="timeline-rad">
+                    <h3 class="m-portfolioItem-subtitle">Das Timeline-Rad</h3>
+                    <p>
+                      Auf der rechten Seite hat der Nutzer eine kleine Timeline, welche dem Nutzer anzeigt, an welcher Stelle im Lebenslauf von Cranach er sich befindet.
+                      Diese Position wird durch eine Linie Strich angezeigt.
+                      Des Weiteren kann er durch die Länge der Linien erkennen, wieviele Bilder in diesem Jahr im Verhältnis zu den anderen Jahren entstanden sind.
+                      Als weitere Funktion wurde ein Rad implementiert, welches das Scrollen durch die Timeline erleichtern sollen.
+                      Dieses Rad lässt sich vom rechten Bildschirmrand hineinziehen.
+                      Dreht der Nutzer nun das Rad, scrollt er schneller durch die Timeline.
+                      Auf dem Rad wird währenddessen die aktuelle Jahreszahl angezeigt. Außerdem wird durch eine gelbe Linie gezeigt, dass in diesem Jahr ein wichtiges Ereignis im Lebenslauf von Cranach stattgefunden hat.
+                      So soll das Rad die Möglichkeit bieten, die Timeline schnell zu "überfliegen" und trotzdem noch Anhaltspunkte über wichtige Ereignisse zu haben.
+                    </p>
+                </figcaption>
+
+                <figcaption>
+                    <img class="m-portfolioItem-image" src="/mi-sd-cranachproject/assets/img/smartphone/cda_timeline.png">
+                    <h3 class="m-portfolioItem-subtitle">Timeline (Smartphone)</h3>
+                </figcaption>
+
+                <figcaption>
+                    <img class="m-portfolioItem-image" src="/mi-sd-cranachproject/assets/img/smartphone/cda_timeline_rad.png">
+                    <h3 class="m-portfolioItem-subtitle">Rad ausgeklappt (Smartphone)</h3>
+                </figcaption>
+                </figure>
+
+
+            <figure class="m-portfolioItem2Columns">
+
+                <figcaption>
+                    <img class="m-portfolioItem-image" src="/mi-sd-cranachproject/assets/img/tablet/cda_timeline_size-mid.png">
+                    <h3 class="m-portfolioItem-subtitle">Rad eingeklappt (Tablet)</h3>
+                </figcaption>
+
+                <figcaption>
+                    <img class="m-portfolioItem-image" src="/mi-sd-cranachproject/assets/img/tablet/cda_timeline_rad.png">
+                    <h3 class="m-portfolioItem-subtitle">Rad ausgeklappt (Tablet)</h3>
+                </figcaption>
+
+            </figure>
+
+            <!--
+            #### Events
+            -->
+
+            <figure class="m-portfolioItem3Columns">
+
+                <figcaption>
+                    <img class="m-portfolioItem-image" src="/mi-sd-cranachproject/assets/img/smartphone/cda_timeline_event_jahr.png">
+                </figcaption>
+
+                <figcaption id="timeline-events">
+                    <h2 class="m-portfolioItem-subtitle">Events</h2>
+                    <p>
+                      In regelmäßgen Abständen werden wichtige Ereignisse im Leben des Cranach durch Einschübe in der Liste der Bilder dargestellt.
+                      So kann der Nutzer Zusammenhänge zwischen Ereignissen und Bildern herstellen und z.B. erkennen, wie sich bestimmte Ereignisse auf die Motivwahl in seinen Bildern ausgewirkt haben.
+                      So wird dem Nutzer eine explorative Suche ermöglicht.
+                    </p>
+                    <h2 class="m-portfolioItem-subtitle">Jahreszahl</h2>
+                    <p>
+                    Der Anfang eines neuen Jahren wird ebenfalls durch einen Einschub angezeit. Dieser ist "sticky" und bleibt jeweils oben am Bildschirmrand hängen.
+                    So kann der Nutzer beim Scrollen durch die Timeline erkennen, wann ein neues Jahr beginnt.
+                    Des Weiteren ist so klar zu erkennen, welches Bild in welchem Jahr entstanden ist.
+                   </p>
+                </figcaption>
+
+                <figcaption>
+                </figcaption>
+
+              </figure>
+
+              <!--
+              #### Detailansicht
+              -->
+
+              <figure class="m-portfolioItem3Columns">
+
+
+                  <figcaption id="Detailansicht">
+                    <h2 class="m-portfolioItem-subtitle">Detailansicht</h2>
+                    <p>
+                      Durch Tippen auf ein Bild öffnet sich die Detailansicht des zugehörigen Bildes. Diese ist eine Card, welche vorerst nur die Hälfte des Bildschirms bedeckt.
+                      Der Nutzer kann diese Card nun über den kompletten Bildschirm ziehen, um alle Informationen zu sehen.
+                      So kann er neben dem Titel dem Entstahungsjahr und dem aktuellen Standort auch eine Kurzbeschreibung des Bildes lesen.
+                      Tippt der Nutzer auf das Bild, gelangt er zu einer Fullscreen-Ansicht des Bildes.
+                      So wird die gesamte Größe des Bildschirms für das Bild verwendet und der Nutzer kann dieses Bild genau betrachten.
+                      Des Weiteren wird dem Nutzer die Möglichkeit geboten, dass jeweilige Bild zur <a href=#merkliste>Merkliste</a> hinzuzufügen, oder es von dieser zu entfernen.
+                    </p>
+                  </figcaption>
+                  <figcaption>
+                      <img class="m-portfolioItem-image" src="/mi-sd-cranachproject/assets/img/smartphone/cda_timeline_single-1.png">
+                  </figcaption>
+
+                  <figcaption>
+                      <img class="m-portfolioItem-image" src="/mi-sd-cranachproject/assets/img/smartphone/cda_timeline_single-2.png">
+                  </figcaption>
+                </figure>
+
+                <figure class="m-portfolioItem3Columns">
+
+                    <figcaption>
+                        <img class="m-portfolioItem-image" src="/mi-sd-cranachproject/assets/img/smartphone/cda_timeline_single-3.png">
+                    </figcaption>
+
+                    <figcaption>
+                        <img class="m-portfolioItem-image" src="/mi-sd-cranachproject/assets/img/smartphone/cda_timeline_single-4.png">
+                    </figcaption>
+
+                    <figcaption>
+                      <p>
+                        Im weiteren Verlauf der Card kann der Nutzer zwischen mehreren verschiedenen Ansichten des Bildes, wie z.B. Röntgenaufnahmen, wählen.
+                        Des Weiteren werden Informationen wie Maße, ID und Eigentümer/Besitzer übersichtlich dargestellt.
+                        Im unteren Bereich der Card befindet sich ein Ausschnitt einer Karte, die den aktuellen Aufenthaltsort des Bildes anschaulich darstellt.
+                        Darunter folgt ein Button, welcher auf eine große, statische Detailseite führt.
+                      </p>
+
+                      <p>
+                        So bietet die Detailansicht dem Nutzer die Möglichkeit, die wichtigsten Informationen auf kleinem Raum übersichtlich dargestellt zu bekommen. So erlangt der Nutzer einen Überblick über die wichtigsten Informationen.
+                        Möchte der Nutzer sich weiter mit dem Bild beschäftigen, kann er auf die weiterführende Detailseite wechseln.
+                      </p>
+                    </figcaption>
+                  </figure>
+
+                <figure class="m-portfolioItem3Columns">
+
+                    <figcaption>
+                        <img class="m-portfolioItem-image" src="/mi-sd-cranachproject/assets/img/tablet/cda_timeline_detail-base.png">
+                        <h3 class="m-portfolioItem-subtitle">Detailansicht (Tablet)</h3>
+                    </figcaption>
+
+                    <figcaption>
+                        <img class="m-portfolioItem-image" src="/mi-sd-cranachproject/assets/img/tablet/cda_timeline_detail-max.png">
+                    </figcaption>
+
+                    <figcaption>
+                        <img class="m-portfolioItem-image" src="/mi-sd-cranachproject/assets/img/tablet/cda_timeline_detail-mid.png">
+                    </figcaption>
+
+                </figure>
+
+
+            <!--
+            ####
+            #### Suche und Filter
+            ####
+            -->
+            <figure class="m-portfolioItem" id="filter">
+              <figcaption>
+                  <h2 class="m-portfolioItem-title">Suche und Filter</h2>
+              </figcaption>
+              <figcaption>
+              <p>
+                Eine weitere zentrale Funktion des Konzeptes ist die Suche. Diese wurde mit den Filtern kombiniert.
+                So kann der Nutzer nach bestimmten Suchbegriffen suchen und das Ergebnis durch weitere Filter eingrenzen.
+              </p>
+              </figcaption>
+
+            </figure>
+
+          </figure>
+              <figure class="m-portfolioItem3Columns">
+                  <figcaption>
+                      <img class="m-portfolioItem-image" src="/mi-sd-cranachproject/assets/img/smartphone/cda_timeline_suche-insert.png">
+                      <h3 class="m-portfolioItem-subtitle">Suche (Smartphone)</h3>
+                      <p>
+                        Durch Tippen auf das Such-Symbol öffnet sich ein Eingabefeld und der Nutzer kann einen Suchbegriff eingeben. Währenddessen wird im Hintergrund das entsprechende Ergebnis angezeigt.
+                        So kann der Nutzer schon während der Eingabe des Suchbegriffs das entsprechende Ergebnis sehen.</p>
+                  </figcaption>
+
+                  <figcaption>
+                      <img class="m-portfolioItem-image" src="/mi-sd-cranachproject/assets/img/smartphone/cda_timeline_suche-results.png">
+                      <h3 class="m-portfolioItem-subtitle">Ergebnis mit Filter (Smartphone)</h3>
+                      <p>
+                        Nachdem der Nutzer die Eingabe bestätigt hat, bekommt der Nutzer nun das Ergebnis angezeigt.
+                        Das Konzept der Ereignisanzeige ist vergleichbar mit der <a href=#timeline-zoom>kleinsten Zoomstufe</a>.
+                        Die Bilder werden mit dem Titel und dem aktuellen Standort in einer Card dargestellt.
+                        Tippt der Nutzer auf eine der Cards, öffnet sich die <a href=#Detailansicht>Detailansicht</a>.
+                        Oberhalb des Screens kann er sich die Filterübersicht durch ein Drop-Down-Menu anzeigen lassen.
+                      </p>
+                  </figcaption>
+
+                  <figcaption>
+                      <img class="m-portfolioItem-image" src="/mi-sd-cranachproject/assets/img/smartphone/cda_timeline_suche-filter.png">
+                      <h3 class="m-portfolioItem-subtitle">Filter (Smartphone)</h3>
+                      <p>
+                          Klappt der Nutzer das Drop-Down-Menu aus, sieht er nun die verschiedenen Filter. Diese sind durch Chips dargestellt und nach Kategorien sortiert.
+                          Tippt der Nutzer auf einen Chip, wählt er den jeweiligen Filter aus. Des Weiteren wird dem Nutzer die möglichkeit geboten, mehrere Filter auszuwählen.
+                          Das Suchergebnis ändert sich währenddessen.
+                      </p>
+
+              </figure>
+
+              <figure class="m-portfolioItem2Columns">
+
+                  <figcaption>
+                      <img class="m-portfolioItem-image" src="/mi-sd-cranachproject/assets/img/tablet/cda_timeline_suche-insert.png">
+                      <h3 class="m-portfolioItem-subtitle">Suche und Filter (Tablet)</h3>
+                  </figcaption>
+
+                  <figcaption>
+                      <img class="m-portfolioItem-image" src="/mi-sd-cranachproject/assets/img/tablet/cda_timeline_suche-filter.png">
+                  </figcaption>
+
+              </figure>
+
+            <!--
+            ####
+            #### Merkliste
+            ####
+            -->
+            <figure class="m-portfolioItem" id="merkliste">
+              <figcaption>
+                  <h2 class="m-portfolioItem-title">Merkliste</h2>
+              </figcaption>
+              <figcaption>
+              <p>
+                In der Merkliste kann sich der Nutzer Bilder abspeichern, welche er zu einem späteren Zeitpunkt noch einmal angucken möchte.
+                So kann er auf diese Bilder jedezeit mittels Merkliste zugreifen. Diese Funktion ist besonders bei Recherchen sehr hilfreich.
+              </p>
+              </figcaption>
+
+            </figure>
+
+            <figure class="m-portfolioItem3Columns">
+                <figcaption>
+                    <img class="m-portfolioItem-image" src="/mi-sd-cranachproject/assets/img/smartphone/cda_merkliste-2.png">
+                    <h3 class="m-portfolioItem-subtitle">Merkliste (Smartphone)</h3>
+                </figcaption>
+
+                <figcaption>
+                    <img class="m-portfolioItem-image" src="/mi-sd-cranachproject/assets/img/smartphone/cda_merkliste-1.png">
+                </figcaption>
+
+                <figcaption>
+                    <p>
+                     Bei der Merkliste wurde eine extended-Card verwendet. Diese zeigt im Gegensatz zu der default-Card weitere Information an.
+                     So kann der Nutzer direkt das Entstehungsdatum, den Aufenthaltsort und die ID des Bildes sehen.
+                     Die Verwendung einer größeren Card ist in diesem Kontext möglich, da die Anzahl der gemerkten Bilder eher klein ist.
+                     Tippt der Nutzer auf diese Card, öffnet sich wiederrum die <a href=#Detailansicht>Detailansicht</a>.
+                    </p>
+                </figcaption>
+
+            </figure>
+
+            <figure class="m-portfolioItem2Columns">
+
+                <figcaption>
+                    <img class="m-portfolioItem-image" src="/mi-sd-cranachproject/assets/img/tablet/cda_merkliste-2.png">
+                    <h3 class="m-portfolioItem-subtitle">Merkliste (Tablet)</h3>
+                </figcaption>
+
+                <figcaption>
+                    <img class="m-portfolioItem-image" src="/mi-sd-cranachproject/assets/img/tablet/cda_merkliste-1.png">
+                </figcaption>
+
+            </figure>
+
+            <!--
+            ####
+            #### Karte
+            ####
+            -->
+            <figure class="m-portfolioItem" id="karte">
+              <figcaption>
+                  <h2 class="m-portfolioItem-title">Karte</h2>
+              </figcaption>
+              <figcaption>
+              <p>
+                Auf der Karte sind die aktuellen Standorte alles Bilder markiert. So kann der Nutzer jederzeit der aktuelle Standort nachgucken und diese Informationen z.B.
+                zur Planung von Bildungsreisen verwenden.
+              </p>
+              </figcaption>
+
+            </figure>
+
+            <figure class="m-portfolioItem3Columns">
+                <figcaption>
+                    <img class="m-portfolioItem-image" src="/mi-sd-cranachproject/assets/img/smartphone/cda_standorte.png">
+                    <h3 class="m-portfolioItem-subtitle">Karte (Smartphone)</h3>
+                </figcaption>
+
+                <figcaption>
+                    <img class="m-portfolioItem-image" src="/mi-sd-cranachproject/assets/img/smartphone/cda_standorte.png">
+                </figcaption>
+
+                <figcaption>
+                    <p>
+                     ...
+                    </p>
+                </figcaption>
+
+            </figure>
+
+            <figure class="m-portfolioItem2Columns">
+
+                <figcaption>
+                    <img class="m-portfolioItem-image" src="/mi-sd-cranachproject/assets/img/tablet/cda_standorte.png">
+                    <h3 class="m-portfolioItem-subtitle">Karte (Tablet)</h3>
+                </figcaption>
+
+                <figcaption>
+                    <img class="m-portfolioItem-image" src="/mi-sd-cranachproject/assets/img/tablet/cda_standorte.png">
+                </figcaption>
+
+            </figure>
+
+            <!--
+            ####
+            #### Navigation
+            ####
+            -->
+            <figure class="m-portfolioItem" id="navigation">
+              <figcaption>
+                  <h2 class="m-portfolioItem-title">Navigation</h2>
+              </figcaption>
+              <figcaption>
+              <p>
+                  Die Navigation ermöglicht es dem Nutzer, schnell zwischen den einzelnen Seiten und Fuktionen der App hin- und herzuwechseln.
+                  Für die Navigation wurden zwei verschiedene Umsetzungen für die Mobileansicht und die Tabletansicht gewählt.
+              </p>
+              </figcaption>
+            </figure>
+
+            <figure class="m-portfolioItem3Columns">
+                <figcaption>
+                  <h3 class="m-portfolioItem-title">Smartphone</h3>
+                  <p>
+                  Für die Mobileansicht wurde ein Hamburger-Menu verwendet. Da der Platz sehr begrenzt ist. So wird die Navigation auf einen extra Screen ausgelagert.
+                  Tippt der Nutzer auf das Icon, welches Teil der Appbar ist, so schiebt sich die Navigation von links herein. Die Navigation liegt auf der obersten Ebene.
+                  Nun kann der Nutzer zwischen der Timeline, der Karte, der Merkliste und den EInstellungen wählen und gelangt durch Tippen zu den jeweiligen Screens.
+                  Des Weiteren kann er direkt die Sprache ändern.
+                  </p>
+
+                  <h3 class="m-portfolioItem-title">Tablet</h3>
+                  <p>
+                  Da die Appbar in der Tabletansicht sehr groß ist, wurde die Navigation in diese integriert. So kann der Nutzer jederzeit zwischen den Screens wechseln.
+                  Durch eine Linie unterhalb der Schrift wird markiert, wo sich der Nutzer zur Zeit befindet.
+                  </p>
+
+                </figcaption>
+
+                <figcaption>
+                    <img class="m-portfolioItem-image" src="/mi-sd-cranachproject/assets/img/tablet/cda_nav.png">
+                    <h3 class="m-portfolioItem-subtitle">Navigation (Tablet)</h3>
+                </figcaption>
+
+                <figcaption>
+                    <img class="m-portfolioItem-image" src="/mi-sd-cranachproject/assets/img/smartphone/cda_nav.png">
+                    <h3 class="m-portfolioItem-subtitle">Navigation (Smartphone)</h3>
+                </figcaption>
+
+            </figure>
+
+
+            <!--
+            ####
+            #### Mobile
+            ####
+            -->
+            <figure class="m-portfolioItem" id="mockups-smartphone">
+                <figcaption>
+                    <h2 class="m-portfolioItem-title">Smartphone</h2>
+                    <h3 class="m-portfolioItem-subtitle">iPhone 8</h3>
+                </figcaption>
+                <figcaption>
+                    <p>
+                        Smartphones werden hauptsächlich von Kunstlaien, Schüler und Studenten zur Recherche verwendet. Experten nutzen das Smartphone nur sehr selten zur
+                        Recherche. Sie nutzen diese lediglich, um auf die Schnelle spezifische Inhalte aufzurufen.
+                    </p>
+                    <p>
+                        <a class="m-linkButton" href="phone/">Alle Screens für das Smartphone anzeigen</a>
+                    </p>
+                </figcaption>
+            </figure>
+
+
+            <!--
+            ####
+            #### Tablet
+            ####
+            -->
+            <figure class="m-portfolioItem" id="mockups-tablet">
+                <figcaption>
+                    <h2 class="m-portfolioItem-title">Tablet</h2>
+                    <h3 class="m-portfolioItem-subtitle">iPad Pro 12.9''</h3>
+                </figcaption>
+                <figcaption>
+                    <p>
+                        Dies ist das hauptsächliche Endgerät für Experten und viele andere
+                        Nutzergruppen.
+                    </p>
+                    <p>
+                        <a class="m-linkButton" href="tablet/">Alle Screens für das Tablet anzeigen</a>
+                    </p>
+                </figcaption>
+            </figure>
+
+            <!--
+            ####
+            #### weitere Ideen
+            ####
+            -->
+            <figure class="m-portfolioItem" id="ideen">
+                <figcaption>
+                    <h2 class="m-portfolioItem-title">Weitere Ideen</h2>
+                    <h3 class="m-portfolioItem-subtitle">und Varianten</h3>
+                </figcaption>
+                <figcaption>
+                    <p>
+                        Hier sind unsere weiteren Ideen und Varianten zu finden.
+                    </p>
+                    <p>
+                        <a class="m-linkButton" href="tablet/">Screens anzeigen</a>
+                    </p>
+                </figcaption>
+            </figure>
+
+            <!--
+            ####
+            #### Style-Guide
+            ####
+            -->
+            <figure class="m-portfolioItemCentered" id="style-guide">
+                <figcaption>
+                    <img class="m-portfolioItem-image no-shadow" src="/mi-sd-cranachproject/assets/img/style-guide.svg" />
+                </figcaption>
+            </figure>
         </div>
     </main>
 
